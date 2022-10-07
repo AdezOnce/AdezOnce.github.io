@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilo-general.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/8818c63172.js" crossorigin="anonymous"></script>
+	<title>Document</title>
+</head>
+<body>
+
+	<header class="ochenta">
+		<div>
+			<h1>Santoro</h1>
+		</div>
+		<nav class="nav">
+			<button class="boton">Menú</button>
+			<ul class="ul">
+				<li><a  class="borde" href="index.html">Inicio</a></li>
+				<li><a  class="borde" href="contacto.html">Contacto</a></li>
+				<li><a href="mas-info.html">Mas info</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<div class="ochenta">
+		<main id="main-contacto">
+			<section id="section-contacto">
+				<article>
+					<div id="titulo-inicial">
+						<h2>
+							Contactame!
+						</h2>
+						<p>Para contactarme completá el siguiente formulario...</p>
+					</div>
+					<form action="#" method="get">
+						
+						<p class="nombre">
+							<label for="nombre">Nombre:</label>
+							<input id="nombre" type="text" name="nombre" placeholder="Ingrese su nombre aquí..." required>
+							
+						</p>
+						
+						<p class="nombre">
+							<label for="apellido">Apellido:</label>
+							<input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido aquí..." required>
+						</p>
+						
+						<p class="nombre">
+							<label for="mail">Mail:</label>
+							<input id="mail" type="email" name="mail" placeholder="Ingrese su mail aquí..." required>
+							
+						</p>
+						
+						<p class="nombre">
+							<label for="asunto">Asunto:</label>
+							<input type="text" id="asunto" name="asunto" placeholder="Ingrese el asunto aquí..." required>
+						</p>
+						
+						<p class="nombre">
+							<label for="mensaje">Mensaje:</label>
+							<textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escriba su mensaje aquí..." required></textarea>
+						</p>
+						<p class="nombre">
+							<input type="submit" id="enviar" value="Enviar">
+						</p>
+
+					</form>
+		
+				</article>
+			</section>
+		</main>
+		
+		
+	</div>
+	<footer class="ochenta">
+		<p>Copyright - Todos los derechos reservados</p>
+	</footer>
+</body>
+</html>
